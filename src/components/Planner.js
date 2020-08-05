@@ -9,7 +9,7 @@ export default class Planner extends React.Component{
         this.state = {
             task: PlannerData,
             input: "",
-            darkMode: true,
+            darkMode: false,
 
         }
         this.handleIdChange = this.handleIdChange.bind(this)

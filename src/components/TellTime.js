@@ -23,9 +23,12 @@ export default function TellTime() {
         <Typist.Backspace count={15} delay={200} />
         <span>
           <h2>Let's work on your list.</h2>
-          <h3>What shall we do next?</h3>
         </span>
       </Typist>
+      <span>
+          
+          <h3>What shall we do next?</h3>
+        </span>
     </div>
   );
 }

@@ -1,0 +1,169 @@
+body{
+    /* background-color: black; */
+    background-image: url("../img3.jpg");
+  /* Full height */
+  height: 850px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.planner-items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 20px 0;
+    width: 60%;
+    border-bottom: 1px solid #cecece;
+    /* font-weight: 200; */
+    font-size: 15px;
+    /* padding-right: 10px; */
+  }
+
+  .planner-body {
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #efefef;
+    box-shadow:
+    /* The top layer shadow */
+        0 1px 3px rgba(0,0,0,0.15),
+            /* The second layer */
+        0 10px 0 -5px #eee,
+            /* The second layer shadow */
+        0 10px 1px -4px rgba(0,0,0,0.15),
+            /* The third shadow */
+        0 20px 1px -9px rgba(0,0,0,0.15);
+    padding: 30px;
+    padding-bottom: 120px;
+   
+  
+  }
+  .container{
+    background-color: rgba(255, 255, 255, 0.885);
+    border: 5px solid rgba(238, 204, 189, 0.844);
+    margin: auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-shadow:
+    /* The top layer shadow */
+        0 1px 3px rgba(0,0,0,0.15),
+            /* The second layer */
+        0 10px 0 -5px rgb(238, 225, 225),
+            /* The second layer shadow */
+        0 10px 1px -4px rgba(0,0,0,0.15),
+            /* The third shadow */
+        0 20px 1px -9px rgba(0,0,0,0.15);
+    padding-bottom: 100px;
+    padding-top: 50px;
+    margin-top: 150px;
+}
+.button-style{
+    /* background-color: black; */
+    /* border: 3px solid white; */
+    /* color: white; */
+    padding: 12px;
+    text-decoration: none !important;
+    border-radius: 10px;
+    box-shadow: 1px 6px #888888;
+    /* opacity section start */
+    position: relative;
+    text-align: center;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    cursor: pointer;
+
+    padding: 6px;
+    background-color:rgb(238, 225, 225) ;
+}
+
+.button-style:after{
+    content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+.button-style:active {
+    background-color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    text-decoration: none !important; 
+  }
+.button-style:hover, .button-style:visited, .button-style:link{
+    text-decoration: none !important; 
+    background-color:rgb(238, 225, 225)
+    /* color: white; */
+}
+
+
+.button-style2{
+    /* background-color: black; */
+    /* border: 3px solid white; */
+    /* color: white; */
+    padding: 12px;
+    text-decoration: none !important;
+    /* border-radius: 10px; */
+    /* box-shadow: 1px 6px #888888; */
+    /* opacity section start */
+    position: relative;
+    text-align: center;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    cursor: pointer;
+
+    padding: 4px;
+    background-color:rgb(238, 225, 225) ;
+}
+
+.button-style2:after{
+    content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+.button-style2:active {
+    background-color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    text-decoration: none !important; 
+  }
+.button-style:hover, .button-style:visited, .button-style:link{
+    text-decoration: none !important; 
+    background-color:rgb(238, 225, 225)
+    /* color: white; */
+}
+.Cursor{
+display: none;
+}
+.call-to-action{
+    margin-top: 60px;
+    color:rgb(194, 148, 128);
+}
+.call-to-action a{
+    text-decoration: none;
+    color:rgb(194, 148, 128);
+}
+.call-to-action a:hover{
+    margin-top: 60px;
+    color:rgb(165, 127, 110);
+    font-size: 17px;
+}
